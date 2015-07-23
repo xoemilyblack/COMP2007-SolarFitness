@@ -22,6 +22,6 @@
         Age: <asp:Label ID="lblAge" runat="server" />
     </div>
     <div>
-        <a href="editProfile.aspx">Edit Profile</a>
+       <a href="editProfile.aspx" class="btn btn-default">Edit Profile</a>
     </div>
 </asp:Content>

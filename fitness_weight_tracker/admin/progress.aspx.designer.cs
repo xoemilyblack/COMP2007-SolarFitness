@@ -7,54 +7,63 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace fitness_weight_tracker.admin {
+namespace fitness_weight_tracker.users {
     
     
-    public partial class exercise {
+    public partial class food {
         
         /// <summary>
-        /// ddlExercise control.
+        /// pnlFoodLog control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlExercise;
+        protected global::System.Web.UI.WebControls.Panel pnlFoodLog;
         
         /// <summary>
-        /// pnlCardio control.
+        /// lblName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlCardio;
+        protected global::System.Web.UI.WebControls.Label lblName;
         
         /// <summary>
-        /// txtDistance control.
+        /// grdFoodLog control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDistance;
+        protected global::System.Web.UI.WebControls.GridView grdFoodLog;
         
         /// <summary>
-        /// txtDuration control.
+        /// pnlActLog control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDuration;
+        protected global::System.Web.UI.WebControls.Panel pnlActLog;
         
         /// <summary>
-        /// pnlMuscles control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlMuscles;
+        protected global::System.Web.UI.WebControls.Label Label1;
+        
+        /// <summary>
+        /// grdActLog control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdActLog;
     }
 }
