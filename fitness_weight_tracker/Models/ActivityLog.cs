@@ -22,13 +22,21 @@ public partial class ActivityLog
 
     public string UserID { get; set; }
 
-    public int ActID { get; set; }
+    public Nullable<System.DateTime> ActDate { get; set; }
 
-    public System.DateTime ActDate { get; set; }
+    public string ActName { get; set; }
+
+    public string ActType { get; set; }
+
+    public Nullable<decimal> ActDuration { get; set; }
+
+    public Nullable<decimal> ActDistance { get; set; }
+
+    public Nullable<int> ActWeight { get; set; }
+
+    public Nullable<int> ActReps { get; set; }
 
 
-
-    public virtual Activity Activity { get; set; }
 
     public virtual AspNetUser AspNetUser { get; set; }
 

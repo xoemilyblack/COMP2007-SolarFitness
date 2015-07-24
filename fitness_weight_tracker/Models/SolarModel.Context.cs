@@ -48,8 +48,6 @@ public partial class fit_trackEntities : DbContext
 
     public virtual DbSet<FoodLog> FoodLogs { get; set; }
 
-    public virtual DbSet<Activity> Activities { get; set; }
-
     public virtual DbSet<ActivityLog> ActivityLogs { get; set; }
 
 }
