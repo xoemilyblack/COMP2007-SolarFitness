@@ -13,5 +13,19 @@ namespace fitness_weight_tracker.admin
         {
 
         }
+
+        protected void ddlExercise_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlExercise.SelectedValue == "cardio")
+            {
+                pnlCardio.Visible = true;
+                pnlMuscles.Visible = false;
+            }
+            else if (ddlExercise.SelectedValue == "weight")
+            {
+                pnlCardio.Visible = false;
+                pnlMuscles.Visible = true;
+            }
+        }
     }
 }

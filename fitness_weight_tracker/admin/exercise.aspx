@@ -6,9 +6,9 @@
     <h1>Add Exercise</h1>
     <div class="container center_div">
     <label for="ddlExercise">Choose the type of exercise:</label>
-        <asp:DropDownList runat="server" ID="ddlExercise" CssClass="form-control">
+        <asp:DropDownList runat="server" ID="ddlExercise" CssClass="form-control" OnSelectedIndexChanged="ddlExercise_SelectedIndexChanged">
             <asp:ListItem Text="Cardio" Value="cardio"></asp:ListItem>
-            <asp:ListItem Text="Muscular Endurance" Value="muscles"></asp:ListItem>
+            <asp:ListItem Text="Weights" Value="weight"></asp:ListItem>
         </asp:DropDownList>
         <asp:Panel runat="server" ID="pnlCardio" Visible="false">
             <h3>Cardio</h3>
