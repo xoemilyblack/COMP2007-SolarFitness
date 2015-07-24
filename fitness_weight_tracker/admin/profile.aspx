@@ -3,7 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>User Details for: <asp:Label ID="lblUsername" runat="server" /></h1>
-    <div>
+    <asp:Label runat="server" ID="lblError" CssClass="label label-info"></asp:Label>
+     <div>
         First Name: <asp:Label ID="lblFirstName" runat="server" />
     </div>
     <div>
