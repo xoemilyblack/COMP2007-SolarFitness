@@ -67,15 +67,6 @@ namespace fitness_weight_tracker.admin {
         protected global::System.Web.UI.WebControls.TextBox txtDistance;
         
         /// <summary>
-        /// actDistanceRequiredValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator actDistanceRequiredValidator;
-        
-        /// <summary>
         /// actDistanceRangeValidator control.
         /// </summary>
         /// <remarks>
@@ -83,6 +74,15 @@ namespace fitness_weight_tracker.admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator actDistanceRangeValidator;
+        
+        /// <summary>
+        /// actDistanceRequiredValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator actDistanceRequiredValidator;
         
         /// <summary>
         /// txtDuration control.
@@ -94,15 +94,6 @@ namespace fitness_weight_tracker.admin {
         protected global::System.Web.UI.WebControls.TextBox txtDuration;
         
         /// <summary>
-        /// actDurationRequiredValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator actDurationRequiredValidator;
-        
-        /// <summary>
         /// actDurationRangeValidator control.
         /// </summary>
         /// <remarks>
@@ -110,6 +101,15 @@ namespace fitness_weight_tracker.admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator actDurationRangeValidator;
+        
+        /// <summary>
+        /// actDurationRequiredValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator actDurationRequiredValidator;
         
         /// <summary>
         /// pnlMuscles control.
