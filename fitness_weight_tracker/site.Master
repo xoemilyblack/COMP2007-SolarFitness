@@ -1,7 +1,11 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="fitness_weight_tracker.site" %>
 
 <!DOCTYPE html>
-
+<!--
+    Page Name: site.Master
+    Authors: Emily and Blake
+    Description: Page that links to css and bootstrap. Also has the header, nav and footer.
+     -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Solar Fitness</title>
@@ -48,7 +52,7 @@
             </asp:ContentPlaceHolder>
         </div>
         <div>
-            <footer class="alert alert-info">Emily and Blake | Solar Fitness</footer>
+            <footer class="alert alert-info">Emily Black &#38; Blake Murdock | Solar Fitness &#169; 2015</footer>
         </div>
     </form>
 

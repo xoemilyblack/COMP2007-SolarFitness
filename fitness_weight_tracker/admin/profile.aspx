@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="Solar Fitness | Profile" Language="C#" MasterPageFile="~/site.Master" AutoEventWireup="true" CodeBehind="profile.aspx.cs" Inherits="fitness_weight_tracker.users.profile" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!--
+    Page Name: profile.aspx
+    Authors: Emily and Blake
+    Description: Page to view users profile information. Also can edit profile from here.
+    -->
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>User Details for: <asp:Label ID="lblUsername" runat="server" /></h1>

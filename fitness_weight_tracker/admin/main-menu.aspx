@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="Solar Fitness | Main Menu" Language="C#" MasterPageFile="~/site.Master" AutoEventWireup="true" CodeBehind="main-menu.aspx.cs" Inherits="fitness_weight_tracker.admin.main_menu" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!--
+    Page Name: main-menu.aspx
+    Authors: Blake and Emily
+    Description: Page to show options available to users.
+     -->
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1 class="text-center">Menu</h1>

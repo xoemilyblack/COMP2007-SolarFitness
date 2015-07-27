@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="Solar Fitness | Error" Language="C#" MasterPageFile="~/site.Master" AutoEventWireup="true" CodeBehind="error.aspx.cs" Inherits="fitness_weight_tracker.error" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!--
+    Page Name: error.aspx
+    Authors: Emily and Blake
+    Description: Page to tell users that an error occured
+     -->
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Oh no! Error Detected!!</h1>

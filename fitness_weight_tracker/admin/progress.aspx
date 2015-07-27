@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="Solar Fitness | View Progress" Language="C#" MasterPageFile="~/site.Master" AutoEventWireup="true" CodeBehind="progress.aspx.cs" Inherits="fitness_weight_tracker.users.food" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!--
+    Page Name: progress.aspx
+    Authors: Blake and Emily
+    Description: Page to show users their food and activity logs.
+     -->
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

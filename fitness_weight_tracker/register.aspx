@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="Solar Fitness | Register" Language="C#" MasterPageFile="~/site.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="fitness_weight_tracker.register" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!--
+    Page Name: register.aspx
+    Authors: Emily and Blake
+    Description: Page to register users for a login. Once registered it gives them access to the private links.
+     -->
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Register</h1>
