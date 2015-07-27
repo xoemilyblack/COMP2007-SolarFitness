@@ -103,7 +103,7 @@ namespace fitness_weight_tracker.users
                     var ActLog = from al in db.ActivityLogs
                                  join u in db.AspNetUsers on al.UserID equals u.Id
                                  where al.UserID == userID
-                                 select new { al.ActLogID, al.ActName, al.ActType, al.ActDuration, al.ActWeight, al.ActReps, al.ActDate };
+                                 select new { al.ActLogID, al.ActName, al.ActType, al.ActDuration, al.ActDistance, al.ActWeight, al.ActReps, al.ActDate };
 
 
                     grdActLog.DataSource = ActLog.AsQueryable().OrderBy(sortString).ToList();
@@ -210,7 +210,7 @@ namespace fitness_weight_tracker.users
             Int32 selectedRow = e.RowIndex;
 
             // Get the selected ActLogID using the grid's Data Key collection
-            Int32 ActID = Convert.ToInt32(grdFoodLog.DataKeys[selectedRow].Values["ActLogID"]);
+            Int32 ActID = Convert.ToInt32(grdActLog.DataKeys[selectedRow].Values["ActLogID"]);
 
             try
             {

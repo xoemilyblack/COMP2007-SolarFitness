@@ -37,7 +37,7 @@
                 <asp:BoundField DataField="Protein" HeaderText="Protein" SortExpression="Protein" />
                 <asp:BoundField DataField="Sodium" HeaderText="Sodium" SortExpression="Sodium" />
                 <asp:BoundField DataField="FoodDate" HeaderText="Date Entered" SortExpression="FoodDate" />
-                <asp:HyperLinkField HeaderText="Edit" Text="Edit" NavigateUrl="~/food.aspx" DataNavigateUrlFields="FoodLogID" DataNavigateUrlFormatString="food.aspx?FoodLogID={0}" />
+                <asp:HyperLinkField HeaderText="Edit" Text="Edit" NavigateUrl="~/food.aspx" DataNavigateUrlFields="FoodLogID" DataNavigateUrlFormatString="addFood.aspx?FoodLogID={0}" />
                 <asp:CommandField HeaderText="Delete" DeleteText="Delete" ShowDeleteButton="true" />
             </Columns>
         </asp:GridView>
@@ -61,6 +61,7 @@
                 <asp:BoundField DataField="ActName" HeaderText="Activity Name" SortExpression="ActName" />
                 <asp:BoundField DataField="ActType" HeaderText="Activity Type" SortExpression="ActType" />
                 <asp:BoundField DataField="ActDuration" HeaderText="Activity Duration" SortExpression="ActDuration" />
+                <asp:BoundField DataField="ActDistance" HeaderText="Activity Distance (Km)" SortExpression="ActDistance" />
                 <asp:BoundField DataField="ActWeight" HeaderText="Activity Weight" SortExpression="ActWeight" />
                 <asp:BoundField DataField="ActReps" HeaderText="Activity Repetitions" SortExpression="ActReps" />
                 <asp:BoundField DataField="ActDate" HeaderText="Date Entered" SortExpression="ActDate" />
