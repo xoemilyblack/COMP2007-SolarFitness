@@ -1,13 +1,12 @@
 ﻿<%@ Page Title="Solar Fitness | View Progress" Language="C#" MasterPageFile="~/site.Master" AutoEventWireup="true" CodeBehind="progress.aspx.cs" Inherits="fitness_weight_tracker.users.food" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <!--
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <!--
     Page Name: progress.aspx
     Authors: Blake and Emily
     Description: Page to show users their food and activity logs.
      -->
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <h1>Progress</h1>
     <asp:Panel ID="pnlChoice" runat="server" Visible="true">
@@ -63,7 +62,6 @@
             OnRowDeleting="grdActLog_RowDeleting" OnPageIndexChanging="grdActLog_PageIndexChanging" OnSorting="grdActLog_Sorting" 
             OnRowDataBound="grdActLog_RowDataBound" DataKeyNames="ActLogID" CssClass="table table-striped table-hover">
             <Columns>
-                <asp:BoundField DataField="ActLogID" HeaderText="Activity Log ID" SortExpression="ActLogID" />
                 <asp:BoundField DataField="ActName" HeaderText="Activity Name" SortExpression="ActName" />
                 <asp:BoundField DataField="ActType" HeaderText="Activity Type" SortExpression="ActType" />
                 <asp:BoundField DataField="ActDuration" HeaderText="Activity Duration" SortExpression="ActDuration" />
